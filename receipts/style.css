@@ -122,6 +122,7 @@ li {
   color: black;
   background: white;
   font-size: 1em;
+  cursor: pointer;
 }
 .color-card {
   background-color: #1c2b66;
