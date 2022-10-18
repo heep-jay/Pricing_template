@@ -155,3 +155,11 @@ body {
 
   object-fit: contain;
 }
+@media screen and (max-width: 1200px) {
+  .requests {
+    flex: 1;
+  }
+  .sidebar {
+    display: none;
+  }
+}
