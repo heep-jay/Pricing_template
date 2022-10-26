@@ -10,15 +10,12 @@
 .body {
   background: #000;
 }
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 .hero {
-  /* display: flex; */
-
   align-items: center;
   height: 750px;
 }
@@ -32,7 +29,6 @@
 }
 
 .hero-image {
-  /* flex: 0.5; */
   float: left;
   width: 50%;
 }
@@ -114,7 +110,6 @@
   width: 25%;
   padding: 0 10px;
   margin: 1rem 0;
-  /* border: 1px solid; */
 }
 
 .solution-item {
