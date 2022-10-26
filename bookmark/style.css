@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  background: #fff;
+}
+
+.bookmark {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 9rem;
+  color: #1c2b66;
+  height: 95vh;
+}
+
+img {
+  margin: 1rem 0;
+  height: 500px;
+  width: 500px;
+}
+h1 {
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+h3 {
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 500px) {
+  img {
+    height: 320px;
+    width: 320px;
+  }
+  h3 {
+    font-size: 1rem;
+    width: 16rem;
+  }
+}

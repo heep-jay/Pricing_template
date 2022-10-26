@@ -4,10 +4,6 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
-  overflow-x: none;
-}
-.body {
-  background: #000;
 }
 .row:after {
   content: "";
