@@ -3,7 +3,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-
   font-family: "Roboto", sans-serif;
   overflow-x: none;
 }
@@ -33,7 +32,7 @@
   width: 50%;
 }
 .hero-image img {
-  height: 754px;
+  height: 750px;
   width: 100%;
   object-fit: cover;
 }
@@ -109,17 +108,17 @@
   float: left;
   width: 25%;
   padding: 0 10px;
-  margin: 1rem 0;
+  margin: 3rem 0;
 }
 
 .solution-item {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
   text-align: center;
-  height: 280px;
-  width: 300px;
+  height: 250px;
+  width: 290px;
   margin: 0 auto;
-
+  cursor: pointer;
   border: 1px solid #f1f1f1;
   border-radius: 5px;
   display: flex;
@@ -131,6 +130,7 @@
   height: 150px;
   width: 150px;
   border-radius: 50%;
+  object-fit: cover;
 }
 .solution-item h3 {
   margin-top: 1rem;
